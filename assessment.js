@@ -16,7 +16,7 @@ let lovesCode = true;
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
 // CODE HERE
-let me = "My name is "+ myName+ " and my favourite number is "+faveNum;
+let me = "My name is "+ myName+ " and my favorite number is "+faveNum;
 
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
@@ -49,7 +49,7 @@ var responseCreator = function(param){
   }else if(param ==="red"){
     colorResponse = "I heart red"
   }else{
-    colorResponse = "What is your favourite color?"
+    colorResponse = "What is your favorite color?"
   }
   return colorResponse;
 }
@@ -65,5 +65,6 @@ function sum(a) {
 
 // CODE HERE
 function greeter(name, age) {
-  return "Hi i'm "+name+" and i'm "+age+" years old.";
+  return "Hi! I am "+name+" and I am "+age+" years old";
 }
+//Hi! I am Bryan and I am 28 years old
